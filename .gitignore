@@ -1,0 +1,88 @@
+# === Python Environment and Dependencies ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+venv/
+env/
+.insaurace_venv/       # Specific name of your virtual environment
+*.egg-info/
+dist/
+build/
+env_insaurance/
+
+# === IDE and Editor Files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === macOS Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# === Credentials and Environment Variables ===
+.env
+*.env
+Simulator.env
+*.pem
+*.key
+*.cer
+secrets/
+config/*.yml
+config/*.yaml
+
+# === Application Runtime Files ===
+logs/
+*.log
+tmp/
+temp/
+.cache/
+
+# === DBT (Data Build Tool) Artifacts ===
+target/
+dbt_packages/
+compiled/
+logs/dbt.log
+profiles.yml
+local_profiles.yml
+dbt_project.yml.bak
+
+# === Jupyter Notebook files ===
+.ipynb_checkpoints/
+
+# === General OS / System Files ===
+~*
+.#*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Optional: Python test artifacts ===
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual Environment
+insaurace_venv/
+
+# DBT
+dbt_modules/
+target/
+
+# OS
+.DS_Store
+env_insaurance/

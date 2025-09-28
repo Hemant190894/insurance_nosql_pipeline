@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+    - name: snowflake
+      database: insaurance
+      schema: raw
+      tables:
+        - name: CLAIMS
